@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     new SpriteRenderer renderer;
     Rigidbody2D rb;
     public float moveSpeed = 5f;
-    public float jumpSpeed = 5f;
+    public float jumpSpeed = 7f;
     float moveX;//左右移动输入
     bool moveY;//跳跃输入
     bool isOnFloor = true;//判断在空中还是在地上
